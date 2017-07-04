@@ -1,0 +1,21 @@
+group 'com.jin'
+version '1.0'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+ext {
+    junitVersion = "4.11"
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile(
+            "junit:junit:${junitVersion}"
+    )
+}
