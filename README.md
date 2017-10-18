@@ -3,6 +3,8 @@
 ### Author
 * 吴晋清
 
+### 常用命令
+
 清理项目：
 > gradle clean
 
