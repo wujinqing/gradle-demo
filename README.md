@@ -3,23 +3,30 @@
 ### Author
 * 吴晋清
 
-命令：
+清理项目：
 > gradle clean
 
-说明：
-> 清理项目
+构建项目、重新编译项目：
+> gradle build
 
-命令：
+打war包：
+> gradle war
+
+打jar包：
+> gradle jar
+
+生成eclipse项目配置：
+> gradle eclipse
+
+清理eclipse相关配置：
+> gradle cleanEclipse
+
+查看项目的属性：
 > gradle properties
 
-说明：
-> 查看项目的属性
-
-命令：
+查看项目依赖：
 > gradle dependencies
 
-说明：
-> 查看项目依赖
 
 
 
